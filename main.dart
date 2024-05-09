@@ -57,7 +57,7 @@ class PixelInfoScreen extends StatelessWidget {
             InfoCard(
               title: 'Píxeles por Pulgada',
               value: screenPPI.toStringAsFixed(2),
-              color: Colors.yellow, // Cambia el color de la tarjeta
+              color: Colors.red, // Cambia el color de la tarjeta
             ),
           ],
         ),
